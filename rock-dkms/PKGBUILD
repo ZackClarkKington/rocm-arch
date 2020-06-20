@@ -1,7 +1,7 @@
 # Maintainer: Olaf Leidinger <oleid@mescharet.de>
 pkgname=rock-dkms
-pkgver=3.3.19
-_pkgver=3.3-19
+pkgver=3.5.32
+_pkgver=3.5-32
 pkgrel=1
 pkgdesc="Linux AMD GPU kernel driver from ROC in DKMS format."
 arch=('any')
@@ -13,7 +13,7 @@ options=('!strip' '!emptydirs')
 source=("http://repo.radeon.com/rocm/apt/debian/pool/main/r/rock-dkms/rock-dkms_${_pkgver}_all.deb"
 	"Makefile.patch")
 
-sha256sums=('9a6eb2b65360b5ec74de3212030506ae6706bd29dc65d45582dc9d61f16dd5a3'
+sha256sums=('96bb0730df239e9c7ea6b0086060dff04a31e620a08c51e7b1f9235858dbe2af'
             'c01e4aeb6c8d5997d1dc89e3bfa12fe82e68add3f8eb83bce498066600d8e231')
 
 package() {
